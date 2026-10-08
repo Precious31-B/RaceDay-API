@@ -64,5 +64,5 @@ RaceDay is a full-stack web-based event management system for the South African 
 
 
 
-!\[CI/CD Build](https://github.com/YOUR-USERNAME/RaceDay-API/actions/workflows/ci.yml/badge.svg)
+!\[CI/CD Build](https://github.com/Precious31-B/RaceDay-API/actions/workflows/ci.yml/badge.svg)
 
