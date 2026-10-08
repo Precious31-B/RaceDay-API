@@ -59,10 +59,11 @@ RaceDay is a full-stack web-based event management system for the South African 
 4\. Press F5 to run — Swagger opens
 
 
+## CI/CD Status
 
-\## CI/CD Status
+![CI/CD Build](https://github.com/YOUR-USERNAME/RaceDay-API/actions/workflows/ci.yml/badge.svg)
 
+### Successful Build
 
-
-!\[CI/CD Build](https://github.com/Precious31-B/RaceDay-API/actions/workflows/ci.yml/badge.svg)
+![CI/CD Success](ci-success.png)
 
