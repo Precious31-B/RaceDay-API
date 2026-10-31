@@ -49,21 +49,18 @@ Run the application (Press F5). It will communicate with the local API.
 Docker Setup (Part 3 Requirement)
 The MVC application is fully containerized.
 
-Ensure the API is running locally on port 5004 (http://localhost:5004).
+1. Ensure the API is running locally on port 5004 (http://localhost:5004).
 
-Open a terminal and navigate to the MVC project folder:
-
-bash
+2. Open a terminal and navigate to the MVC project folder and run:
 cd RaceDay.Web
-Build the Docker image:
 
-bash
+3. Build the Docker image by running:
 docker build -t raceday-web .
-Run the container, passing the API URL environment variable so the container can reach the host machine:
 
-bash
+4. Run the container, passing the API URL environment variable so the container can reach the host machine:
 docker run -d -p 8080:8080 -e "ApiSettings__BaseUrl=http://host.docker.internal:5004" --name raceday-mvc raceday-web
-Access the application at http://localhost:8080.
+
+5. Access the application at http://localhost:8080.
 
 Azure Blob Storage
 The API is integrated with Azure Blob Storage for uploading event banner images. Images are uploaded via the API and the resulting URL is stored in the database. The connection string is configured in RaceDay.API/appsettings.json.
