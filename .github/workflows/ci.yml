@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '9.0.x' # 
+        dotnet-version: '9.0.x' 
 
     - name: Restore API
       run: dotnet restore RaceDay.API/RaceDay.API.csproj
@@ -35,4 +35,4 @@ jobs:
       run: dotnet build RaceDay.Web/RaceDay.Web.csproj --no-restore --configuration Release
 
     - name: Run Tests
-      run: dotnet test RaceDay.Tests/RaceDay.Tests.csproj --no-build --configuration Release --verbosity normal
+      run: dotnet test RaceDay.Tests/RaceDay.Tests.csproj
