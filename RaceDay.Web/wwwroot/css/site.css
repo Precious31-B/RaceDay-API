@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Base Typography & Colors */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F7F6;
+    color: #475569;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1E293B;
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+    .navbar-custom .navbar-brand {
+        color: #FF5722 !important;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .navbar-custom .nav-link {
+        color: #475569 !important;
+        font-weight: 500;
+        transition: color 0.2s;
+    }
+
+        .navbar-custom .nav-link:hover, .navbar-custom .nav-link.active {
+            color: #FF5722 !important;
+        }
+
+/* Cards */
+.card-custom {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .card-custom:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+
+/* Buttons */
+.btn-primary-custom {
+    background-color: #FF5722;
+    border-color: #FF5722;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+    .btn-primary-custom:hover {
+        background-color: #E64A19;
+        border-color: #E64A19;
+        color: white;
+    }
+
+/* Badges */
+.badge-confirmed {
+    background-color: #D1FAE5;
+    color: #065F46;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.badge-pending {
+    background-color: #FEF3C7;
+    color: #92400E;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Forms */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    padding: 10px 15px;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: #FF5722;
+        box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25);
+    }
