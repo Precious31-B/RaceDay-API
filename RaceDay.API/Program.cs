@@ -24,6 +24,7 @@ builder.Services.AddSession(options =>
 // Add HttpContextAccessor (to access session in controllers)
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddScoped<RaceDay.API.Services.IBlobService, RaceDay.API.Services.BlobService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
