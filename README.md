@@ -73,6 +73,6 @@ Successful Build
 ![](ci-success.png)
 
 Video Presentation
-Watch the Part 3 walkthrough
+[](youtubelink)
 
    
