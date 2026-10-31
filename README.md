@@ -63,13 +63,14 @@ docker run -d -p 8080:8080 -e "ApiSettings__BaseUrl=http://host.docker.internal:
 5. Access the application at http://localhost:8080.
 
 Azure Blob Storage
+
 The API is integrated with Azure Blob Storage for uploading event banner images. Images are uploaded via the API and the resulting URL is stored in the database. The connection string is configured in RaceDay.API/appsettings.json.
 
 CI/CD Status
 https://github.com/Precious31-B/RaceDay-API/actions/workflows/ci.yml/badge.svg
 
 Successful Build
-https://ci-success.png/
+![](ci-success.png)
 
 Video Presentation
 Watch the Part 3 walkthrough
