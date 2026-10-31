@@ -37,7 +37,7 @@ RaceDay allows Event Organisers to create and manage events, categories, and par
 2. Ensure the connection string in `RaceDay.API/appsettings.json` points to your local SQL Server.
 3. Open the Package Manager Console (Default project: `RaceDay.API`) and run:
    ```powershell
-   Update-
+   Update-Database
 
 Run the RaceDay.API project (Press F5). Swagger will open.
 
